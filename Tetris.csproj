@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Board\BG_1.png" />
+    <None Remove="Assets\Board\BG_2.png" />
+    <None Remove="Assets\Board\Border.png" />
+    <None Remove="Assets\Shape Blocks\I.png" />
+    <None Remove="Assets\Shape Blocks\J.png" />
+    <None Remove="Assets\Shape Blocks\L.png" />
+    <None Remove="Assets\Shape Blocks\O.png" />
+    <None Remove="Assets\Shape Blocks\S.png" />
+    <None Remove="Assets\Shape Blocks\T.png" />
+    <None Remove="Assets\Shape Blocks\Z.png" />
+    <None Remove="Assets\Single Blocks\Blue.png" />
+    <None Remove="Assets\Single Blocks\Green.png" />
+    <None Remove="Assets\Single Blocks\LightBlue.png" />
+    <None Remove="Assets\Single Blocks\Orange.png" />
+    <None Remove="Assets\Single Blocks\Purple.png" />
+    <None Remove="Assets\Single Blocks\Red.png" />
+    <None Remove="Assets\Single Blocks\Yellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Board\BG_1.png" />
+    <Resource Include="Assets\Board\BG_2.png" />
+    <Resource Include="Assets\Board\Border.png" />
+    <Resource Include="Assets\Shape Blocks\I.png" />
+    <Resource Include="Assets\Shape Blocks\J.png" />
+    <Resource Include="Assets\Shape Blocks\L.png" />
+    <Resource Include="Assets\Shape Blocks\O.png" />
+    <Resource Include="Assets\Shape Blocks\S.png" />
+    <Resource Include="Assets\Shape Blocks\T.png" />
+    <Resource Include="Assets\Shape Blocks\Z.png" />
+    <Resource Include="Assets\Single Blocks\Blue.png" />
+    <Resource Include="Assets\Single Blocks\Green.png" />
+    <Resource Include="Assets\Single Blocks\LightBlue.png" />
+    <Resource Include="Assets\Single Blocks\Orange.png" />
+    <Resource Include="Assets\Single Blocks\Purple.png" />
+    <Resource Include="Assets\Single Blocks\Red.png" />
+    <Resource Include="Assets\Single Blocks\Yellow.png" />
+  </ItemGroup>
+
+</Project>
